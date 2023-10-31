@@ -144,7 +144,6 @@ def Downloader(Path,URLs):
             print("Test2")
             TempMp4Path = Stream.download(Path)
         except Exception as e:
-            print(TempMp4Path)
             ErrorList.append("Download Failed for "+VidTitle)
             continue
 
